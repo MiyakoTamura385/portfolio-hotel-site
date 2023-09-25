@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*========= レイアウトのためのCSS ===============*/
 body {
     background: #f0f0f0;
@@ -402,10 +403,8 @@ _:-ms-lang(x)::-ms-backdrop, .message-content .message-btn{/*IE11用ハック*/
 }
 
 /*==================================================
-ふわっ
+スクロールすると上に現れる
 ===================================*/
-
-
 /* fadeUp */
 
 .fadeUp{
@@ -428,13 +427,13 @@ _:-ms-lang(x)::-ms-backdrop, .message-content .message-btn{/*IE11用ハック*/
 }
     
     
-    /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
     .fadeUpTrigger{
         opacity: 0;
     }
     
 
-    /* copyright */
+/* copyright */
 
 small{
     position: absolute;

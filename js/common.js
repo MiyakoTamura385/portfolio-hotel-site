@@ -4,18 +4,17 @@
     {src:'/images/hotel-zoom2-pc.jpg'},
     {src:'/images/hotel-zoom3-pc.jpg'},
     {src:'/images/hotel-zoom4-pc.jpg'}
-   ];
-   
-   
-   if (window.matchMedia("(max-width: 991px)").matches) {
+  ];
+
+  if (window.matchMedia("(max-width: 991px)").matches) {
     slides = [
-     {src:'/images/hotel-zoom1-sp.jpg'},
-     {src:'/images/hotel-zoom2-sp.jpg'},
-     {src:'/images/hotel-zoom3-sp.jpg'},
-     {src:'/images/hotel-zoom4-sp.jpg'}
+      {src:'/images/hotel-zoom1-sp.jpg'},
+      {src:'/images/hotel-zoom2-sp.jpg'},
+      {src:'/images/hotel-zoom3-sp.jpg'},
+      {src:'/images/hotel-zoom4-sp.jpg'}
     ];
-   }
-   $('#mainvisual').vegas({
+  }
+  $('#mainvisual').vegas({
     slides: slides,
     transition: 'fade',
     transitionDuration: 4000,
@@ -24,7 +23,7 @@
     animation: 'random',
     animationDuration: 20000,
     timer: true
-   });
+  });
 
 /*===========================================================*/
 /*クリックしたらナビが右から左に出現*/
