@@ -1,17 +1,17 @@
 //vegas 画像の設定
   let slides = [
-    {src:'../images/hotel-zoom1-pc.jpg'},
-    {src:'../images/hotel-zoom2-pc.jpg'},
-    {src:'../images/hotel-zoom3-pc.jpg'},
-    {src:'../images/hotel-zoom4-pc.jpg'}
+    {src:'./images/hotel-zoom1-pc.jpg'},
+    {src:'./images/hotel-zoom2-pc.jpg'},
+    {src:'./images/hotel-zoom3-pc.jpg'},
+    {src:'./images/hotel-zoom4-pc.jpg'}
   ];
 
   if (window.matchMedia("(max-width: 991px)").matches) {
     slides = [
-      {src:'../images/hotel-zoom1-sp.jpg'},
-      {src:'../images/hotel-zoom2-sp.jpg'},
-      {src:'../images/hotel-zoom3-sp.jpg'},
-      {src:'../images/hotel-zoom4-sp.jpg'}
+      {src:'./images/hotel-zoom1-sp.jpg'},
+      {src:'./images/hotel-zoom2-sp.jpg'},
+      {src:'./images/hotel-zoom3-sp.jpg'},
+      {src:'./images/hotel-zoom4-sp.jpg'}
     ];
   }
   $('#mainvisual').vegas({
