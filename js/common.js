@@ -1,17 +1,17 @@
 //vegas 画像の設定
   let slides = [
     {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom1-pc.jpg?raw=true'},
-    {src:'/images/hotel-zoom2-pc.jpg'},
-    {src:'/images/hotel-zoom3-pc.jpg'},
-    {src:'/images/hotel-zoom4-pc.jpg'}
+    {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom2-pc.jpg?raw=true'},
+    {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom3-pc.jpg?raw=true'},
+    {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom4-pc.jpg?raw=true'}
   ];
 
   if (window.matchMedia("(max-width: 991px)").matches) {
     slides = [
-      {src:'/images/hotel-zoom1-sp.jpg'},
-      {src:'/images/hotel-zoom2-sp.jpg'},
-      {src:'/images/hotel-zoom3-sp.jpg'},
-      {src:'/images/hotel-zoom4-sp.jpg'}
+      {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom1-sp.jpg?raw=true'},
+      {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom2-sp.jpg?raw=true'},
+      {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom3-sp.jpg?raw=true'},
+      {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom4-sp.jpg?raw=true'}
     ];
   }
   $('#mainvisual').vegas({
