@@ -594,11 +594,11 @@ footer-site
     }
 }
 .nav-access-location {
-    background: url(/images/nav-access-location_edited.jpg) center center;
+    background: url(../images/nav-access-location_edited.jpg) center center;
     background-size: cover;   
 }
 .nav-access-floormap {
-    background: url(/images/nav-access-floormap_edited.jpg) center center;
+    background: url(../images/nav-access-floormap_edited.jpg) center center;
     background-size: cover;
 }
 .icon-location {
@@ -692,16 +692,16 @@ footer-global
 }
 /*===========SNS icon===================================*/
 .icon-instagram {
-    -webkit-mask-image: url(/svg/Instagram-white.svg);
-    mask-image: url(/svg/Instagram-white.svg)
+    -webkit-mask-image: url(../svg/Instagram-white.svg);
+    mask-image: url(../svg/Instagram-white.svg)
 }
 .icon-facebook {
-    -webkit-mask-image: url(/svg/Facebookーwhite.svg);
-    mask-image: url(/svg/Facebookーwhite.svg)
+    -webkit-mask-image: url(../svg/Facebook-white.svg);
+    mask-image: url(../svg/Facebook-white.svg)
 }
 .icon-twitter {
-    -webkit-mask-image: url(/svg/Twitter-white.svg);
-    mask-image: url(/svg/Twitter-white.svg)
+    -webkit-mask-image: url(../svg/Twitter-white.svg);
+    mask-image: url(../svg/Twitter-white.svg)
 }
 .icon-twitter,.icon-facebook,.icon-instagram {
     display:inline-flex; 
