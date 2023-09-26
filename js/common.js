@@ -1,6 +1,6 @@
 //vegas 画像の設定
   let slides = [
-    {src:'/images/hotel-zoom1-pc.jpg'},
+    {src:'https://github.com/MiyakoTamura385/portfolio-hotel-site/blob/main/images/hotel-zoom1-pc.jpg?raw=true'},
     {src:'/images/hotel-zoom2-pc.jpg'},
     {src:'/images/hotel-zoom3-pc.jpg'},
     {src:'/images/hotel-zoom4-pc.jpg'}
